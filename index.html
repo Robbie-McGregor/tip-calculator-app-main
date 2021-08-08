@@ -3,7 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="stylesheet" href="./index.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400;500;600&display=swap');
+    </style> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Tip calculator app</title>
@@ -15,30 +18,61 @@
   </style>
 </head>
 <body>
+  <div id="container">
+    <div id="heading" class='tc'>
+      SPLI <br>
+      TTER
+    </div>
+    <div id="calculatorBody">
+      <div id="leftSide">
+        <div class='flexEnd'>
+          Bill
+        </div>
+        <input type="text">
+        <div class="flexEnd">
+          Select Tip %
+        </div>
+        <div id="tipButtons">
+          <button class='tipBtn' id='5percent'>5%</button> 
+          <button class='tipBtn' id='10percent'>10%</button> 
+          <button class='tipBtn' id='15percent'>15%</button> 
+          <button class='tipBtn' id='25percent'>25%</button> 
+          <button class='tipBtn' id='50percent'>50</button> 
+          <button class='tipBtn' id='custompercent'>Custom</button>
+        </div>
+        <div class="flexEnd">
+          Number of People
+        </div>
+        <input type="text">
+      </div>
+      <div id="rightSide">
+        <div>
+          Tip Amount
+          / person
+        </div>
+        <div>
+          Total
+          / person
+        </div>
+        <div id='resetDiv' class='flexEnd'>
+          <button id='resetBtn'>RESET</button>
+        </div>
 
-  Bill
+      
 
-  Select Tip %
-  5%
-  10%
-  15%
-  25%
-  50%
-  Custom
+      
 
-  Number of People
+      </div>
+    </div>
+  </div>
 
-  Tip Amount
-  / person
 
-  Total
-  / person
 
-  Reset
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
+  <script src="./index.js"></script>
 </body>
 </html>

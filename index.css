@@ -1,0 +1,88 @@
+html{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.tc{
+    text-align: center;
+}
+
+body{
+    background-color: #C4E4E7;
+}
+
+#heading{
+    margin: 50px;
+    font-size: x-large;
+    font-weight: 600;
+    letter-spacing: 10px;
+    color: #3C6162;
+}
+
+
+#calculatorBody{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 25px;
+    height: 300px;
+}
+
+#leftSide{
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+
+#rightSide{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    padding: 25px;
+    background-color: #00464A;
+    border-radius: 15px;
+}
+
+#tipButtons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 8px;
+    row-gap: 8px;
+}
+
+.tipBtn{
+    padding: 3px;
+    font-size: larger;
+    border: none;
+    border-radius: 5px;
+    background-color: #00464A;
+    color: white;
+    font-weight: 500;
+}
+
+#calculatorBody{
+    width: 600px;
+    background-color: #ffff;
+    padding: 25px;
+    border-radius: 20px;;
+}
+
+#resetDiv{
+}
+
+#resetBtn{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+input{
+    background-color: #F3F8FB;
+    border-radius: 5px;
+    border: none;
+}
+
+.flexEnd{
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 2.5px;
+}
