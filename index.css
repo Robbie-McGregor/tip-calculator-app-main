@@ -1,5 +1,5 @@
 html{
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Space Mono', monospace;
 }
 
 .tc{
@@ -13,7 +13,7 @@ body{
 #heading{
     margin: 50px;
     font-size: x-large;
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: 10px;
     color: #3C6162;
 }
